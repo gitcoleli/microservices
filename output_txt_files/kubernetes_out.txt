@@ -1,1 +1,7 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+PS E:\git1\microservices> kubectl get pods
+NAME      READY   STATUS    RESTARTS   AGE
+markapp   1/1     Running   1          6m22s
+PS E:\git1\microservices>
+
