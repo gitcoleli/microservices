@@ -1,7 +1,17 @@
 <paste log output from Kubernetes-mediated prediction, here>
 
-PS E:\git1\microservices> kubectl get pods
+mark@DESKTOP-8OKTQCR MINGW64 /e/git1/microservices (main)
+$ kubectl get pods
 NAME      READY   STATUS    RESTARTS   AGE
-markapp   1/1     Running   1          6m22s
-PS E:\git1\microservices>
+markapp   1/1     Running   2          22m
 
+mark@DESKTOP-8OKTQCR MINGW64 /e/git1/microservices (main)
+$ ./make_prediction.sh
+Port: 8000
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   260  100    48  100   212   1920   8480 --:--:-- --:--:-- --:--:-- 10400{
+  "prediction": [
+    20.35373177134412
+  ]
+}
